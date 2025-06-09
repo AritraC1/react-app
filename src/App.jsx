@@ -1,5 +1,5 @@
 import './app.css';
-import BackgroundChanger from "./components/BackgroundChanger";
+import PasswordGenerator from './components/PasswordGenerator';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BackgroundChanger />
+    <PasswordGenerator />
     </>
   )
 }
