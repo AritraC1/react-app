@@ -1,16 +1,11 @@
 import './app.css';
-import PasswordGenerator from './components/PasswordGenerator';
+import CurrencyConverter from './components/CurrencyConverter';
 
 function App() {
 
-  let myObj = {
-    name : "Tony",
-    age : "21"
-  }
-
   return (
     <>
-    <PasswordGenerator />
+    <CurrencyConverter />
     </>
   )
 }
