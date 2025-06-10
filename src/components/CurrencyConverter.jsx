@@ -53,6 +53,7 @@ function CurrencyConverter() {
                                 selectCurrency={from}
                             />
                         </div>
+
                         <div className="relative w-full h-0.5">
                             <button
                                 type="button"
@@ -60,6 +61,7 @@ function CurrencyConverter() {
                                 onClick={swap}
                             > swap </button>
                         </div>
+
                         <div className="w-full mt-1 mb-4">
                             <InputBox
                                 label="To"
@@ -72,6 +74,7 @@ function CurrencyConverter() {
                                 amountDisable // default true, until mentioned
                             />
                         </div>
+                        
                         <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg"> 
                             Convert {from.toUpperCase()} to {to.toUpperCase()} 
                         </button>
