@@ -1,11 +1,10 @@
-import './app.css';
-import CurrencyConverter from './components/CurrencyConverter';
+import AllRoutes from './components/routes/AllRoutes';
 
 function App() {
 
   return (
     <>
-    <CurrencyConverter />
+      <AllRoutes />
     </>
   )
 }
