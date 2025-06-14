@@ -1,11 +1,18 @@
-import AllRoutes from './components/routes/AllRoutes';
+// import AllRoutes from './components/routes/AllRoutes';
+import Login from "./components/Login"
+import Profile from "./components/Profile"
+import UserContextProvider from "./source/UserContextProvider"
 
 function App() {
 
   return (
-    <>
-      <AllRoutes />
-    </>
+    // <>
+    //   <AllRoutes /> 
+    // </>
+    <UserContextProvider>
+      <Login />
+      <Profile />
+    </UserContextProvider>
   )
 }
 
