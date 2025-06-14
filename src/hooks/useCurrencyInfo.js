@@ -1,4 +1,5 @@
 // Custom Hook
+// React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component.
 
 import { useEffect, useState } from "react";
 
